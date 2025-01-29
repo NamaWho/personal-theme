@@ -34,7 +34,13 @@
               >{{ .Name | upper }}</a
             >
           </li>
-          {{ end }}
+          {{ end }} 
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary cv-button" href="{{ .Site.Params.cv.URL | absURL }}" target="_blank">
+              <i class="{{ .Site.Params.cv.icon }}"></i>
+              {{ .Site.Params.cv.btnText | upper }}
+            </a>
+          </li>          
         </ul>
       </div>
     </nav>

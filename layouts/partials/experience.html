@@ -8,6 +8,9 @@
                     <div class="experience__date">{{ .duration }}</div>
                     <div class="experience__title">{{ .title }}</div>
                     <div class="experience__company">{{ .company }}</div>
+                    <div class="experience__description">
+                        {{ .description | safeHTML }}
+                    </div>
                 </div>
                 {{ end }}
             </div>

@@ -76,10 +76,19 @@ education:
       degree: "Master of Science (MSc), Artificial Intelligence and Data Engineering"
       description: "Relevant coursework: Data Mining and Machine Learning, Large Scale and Multistructured Databases, Cloud Computing, Computational Intelligence and Deep Learning, Multimedia Information Retrieval and Computer Vision, Symbolic and Evolutionary Artificial Intelligence, Optimization Methods and Game Theory, Internet of Things, Mobile and Social Sensing Systems"
 
+    - university: "University of Glasgow"
+      year: "Apr 2025 - Jun 2025"
+      degree: "Postgraduate Visiting Researcher in Computing Science"
+      description: "Research visit to complete the master's thesis project. Focused on advanced topics in Information Retrieval (IR), Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) systems, exploring innovative techniques to enhance relevance, diversity, and efficiency in LLM-based retrieval pipelines."
+
     - university: "University of Pisa"
       year: "2020-2023"
       degree: "Bachelor of Science (BSc), Computer Engineering [109/110]"
       description: "Final Dissertation: Development of a recruitment module for drones swarms on an open-source autopilot platform"
+
+    - university: "I.T.I.S. Antonio Meucci, Florence"
+      year: "2015-2020"
+      degree: "High School Diploma, Computer Science [100/100]"
 
 # experience
 experience:
@@ -99,7 +108,8 @@ experience:
     - title: "AI Engineer"
       company: "Etic Srl"
       duration: "Feb 2025 - Present"
-
+      description: "I design and implement AI solutions in both educational and business domains, focusing on real-production-ready deployment. My work involves building RAG pipelines with LangChain and LangGraph, leveraging vector databases like Qdrant and document stores like MongoDB. I optimize inference using Vllm or Groq and manage scalable infrastructure with Docker and Redis."
+      
     - title: "Chief Technology Officer"
       company: "Vision Studio Srl"
       duration: "Mar 2023 - Present"
